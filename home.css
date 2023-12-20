@@ -1,0 +1,15 @@
+/* Custom CSS for changing color on hover */
+.bg-info:hover {
+    background-color: white;
+    color: #007bff; /* Change to the desired text color on hover */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Additional styles for better visibility on hover */
+.bg-info:hover .bi-people {
+    color: #007bff; /* Change to the desired icon color on hover */
+}
+.row{
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,42 @@
+/* Sidebar.css */
+.sidebar {
+  width: 70px;
+  color: #fffefe;
+  transition: width 0.3s ease;
+  flex-direction: column;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.toggle-btn {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sidebar-content {
+  display: none; /* Initially hide the content */
+  flex-direction: unset;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.sidebar.open .sidebar-content {
+  display: flex; /* Display the content when the sidebar is open */
+}
+
+.sidebar.close .sidebar-content{
+  display: flex;
+}
+
+/* ... (Your other styles) */
+.bi-person-circle{ 
+  cursor: pointer;
+}

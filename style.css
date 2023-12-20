@@ -1,0 +1,38 @@
+.list-group a:hover{
+    background-color: rgb(10, 141, 10); 
+    color: white;
+    cursor: pointer;
+}      
+
+/* Custom CSS for changing color on hover */
+#box    :hover {
+    color: #ebf0f5; /* Change to the desired text color on hover */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Additional styles for better visibility on hover */
+
+
+#box{
+    background-color: rgb(117, 202, 245);
+}
+#box:hover{
+
+    background-color:#fca23b;
+}
+
+/* styles.css */
+
+.open {
+    width: 200px; /* Adjust the width as needed */
+    transition: width 0.3s ease;
+  }
+  
+  .closed {
+    width: 30;
+    transition: width 0.3s ease;
+    overflow: hidden;
+  }
+  .row{
+        cursor: pointer;
+  }
